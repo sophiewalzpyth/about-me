@@ -1,0 +1,39 @@
+
+body {
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1c/Loch_Leathan_Waterfall%2C_Isle_of_Skye%2C_Scotland_-_Diliff.jpg'); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1 {
+font-size: 60px; 
+border: 1px solid lightgray;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+h2 {
+padding:20px;
+text-align: left;
+}
+
+div {
+background-color: rgba(255, 255, 255, 0.7);
+border: 1x solid lightgray;
+padding-right: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 30px;
+text-size: 20px;
+}
+
+h6 {
+text-align:left;
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+background-color: rgba(255, 255, 255, 0.7);
+		padding: 30px;
+}
