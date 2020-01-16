@@ -1,0 +1,21 @@
+﻿.alert {
+	padding: 20px;	
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	font-style: calibri;
+	font-size: 20px;
+}
+.clsbtn {
+	margin-left: 30px;
+	color: black;
+	font-weight: bold;
+	float: right;
+	font-size: 25px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.clsbtn:hover {
+	color: white;
+}
