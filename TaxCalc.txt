@@ -1,0 +1,9 @@
+cost = input('Please enter the price of a single object before tax:\n')
+numb = input('Please enter the number of items in the order:\n')
+taxp = input('Please enter the tax percentage:\n')
+tax = float(taxp) * .01
+taxt = float(tax) * (float(cost) * int(numb))
+total = float(taxt) + (float(cost) * int(numb))
+print('The total price is:')
+totalf = round(total, 2)
+print(totalf)

@@ -1,0 +1,23 @@
+name = input('What is your name?\n')
+         
+print('Welcome' + ' ' + name + '!')
+hours = input('Please enter hours worked this week:\n')
+rate = input('Please enter your rate of pay:\n')
+int(hours)
+float(rate)
+pay = float(hours) * float(rate)
+float(pay)
+print('Your pay is' + ' ' +':')
+print(pay)
+
+if float(pay) >= 480:
+    print('Well done,' + ' ' + name + '!')
+if float(pay) <= 479:
+    print(name + ', please see the manager concerning scheduling issues.')
+if float(hours) <= 10:
+    print('You will be required to increase your hours.')
+if float(hours) > 40:
+    print('You will recieve overtime pay this week')
+if float(hours) == 40:
+    print('Thank you for your continued efforts')
+                

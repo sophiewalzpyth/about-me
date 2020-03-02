@@ -1,0 +1,54 @@
+print('Welcome to Sophies interactive code test!')
+name = input('What is your name?\n')
+print('Hello' + ' ' + name + '!')
+compn = input('Lets make an imaginary scenario. You are opening a new company, what do you name it?\n')
+lowp = input('You have to pay your employees, what do you decide to pay the average worker per hour?\n')
+topp = input('You have an employee that stands out above the rest. What is their hourly pay?\n')
+tope = input('What is the name of your top employee?\n')
+print(name + ', you opened your new company,' + ' ' + compn + '. Congratulations!')
+float(lowp)
+float(topp)
+if float(lowp) <= 7.25:
+    print('Not long after opening' + ' ' + compn + ' is at risk of shutting down due to below minimum wage pay!')
+else:
+	if float(lowp) > 7.25:
+		print('With a decent choice in pay' + ' ' + compn + ' ' + 'started on the right track!')
+if float(topp) > 40.00:
+	print(tope + ' is happy with their pay! They worked long and hard hours to improve your company.')
+elif float(topp) < 20.00:
+    print(tope + ' is very dissapointed with their pay. They decided to leave for another company.')
+else:
+	print(tope + ' did steady work for a few years, but soon found a better paying position.')
+yearlp = float(lowp) * 40 * 52
+yeartp = float(topp) * 40 * 52
+
+if float(topp) < 20.00:
+    if float(lowp) < 7.50:
+        print('After leaving the company, ' + tope + ' ' + 'contacted the BBB and had your company shut-down for illegal wages... Better luck next time!')
+    else:
+        print('Though ' + tope + ' ' + 'left the company, your workers worked hard enough to keep you running for a few years. Try again? Try paying ' + tope + 'more or less and see what happens!')
+
+if float(topp) >= 20:
+    if float(lowp) > 7.50:
+        print('By paying employees well, ' + compn + ' ' + ', was able to build and thrive! Congratulations!')
+    else:
+        print('Though not one of the best companies, or the most ethical, ' + compn + ' ' + 'was able to survive as a low level company.')
+        
+if float(topp) >= 20:
+	print('Yearly average employee pay:')
+if float(topp) >= 20:
+    print(yearlp)
+if float(topp) >= 20:
+    print('and your top employee' + ' ' + tope + ' ' + 'earned:') 
+if float(topp) >= 20:
+    print(yeartp)
+
+if float(topp) < 20.00:
+    print('Yearly average employee pay:')
+if float(topp) < 20.00:
+    print(yearlp)
+if float(topp) < 20.00:
+    print('Since ' + tope + ' ' + 'left, you did not have to pay their salary of:')
+if float(topp) < 20.00:
+    print(yeartp)
+

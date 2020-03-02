@@ -1,0 +1,5 @@
+tempc = input('What is the temperature in Celsius?\n')
+float(tempc)
+tempf = float(tempc) * (9/5) + 32
+print('The same temperature in farenheit is:')
+print(tempf)

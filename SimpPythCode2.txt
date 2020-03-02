@@ -1,0 +1,43 @@
+years = input('How many years have you worked at this company? \n')
+int(years)
+
+if int(years) == 20:
+    print('Thank you for being a dedicated employee. Next year you will be asked to fill out a review form.')
+else:
+    if int(years) < 20:
+        print('We are pleased that you continue to work for us. Please disregard this email.')
+    else:
+        print('Thank you for being a dedicated employee for over 20 years. Please see Carol in HR for a review form to fill-out')
+
+rate = 7.5
+float(rate)
+hours = input('How many hours did you work this week?')
+float(hours)
+pay = float(hours) * float(rate)
+if float(hours) - 40 > 0:
+    y = (float(hours) - 40) * float(rate) * 1.5
+    x = 40 * 7.5
+    print('Your weekly pay is:')
+    print(y + x)
+else:
+    if float(hours) <= 40:
+        z = float(hours) * float(rate)
+        print('Your weekly pay is:')
+        print(z)
+
+
+projects = input('How many projects did you complete this year?\n')
+int(projects)
+print('Based on your work, your yearly bonus will be:')
+print(int(projects) * 1500)
+
+bonus = (int(years) + 1) * 450
+print('Congratulations! Your yearly increase in salary will be:')
+print(bonus)
+print('Based on this weeks hours, your average salary at the end of the year will be:')
+if float(hours) - 40 > 0:
+    avgsal = bonus + ((y+x) * 52)
+    print(avgsal)
+else:
+	if float(hours) - 40 <= 0:
+    	avgsals = bonus + (z * 52)
