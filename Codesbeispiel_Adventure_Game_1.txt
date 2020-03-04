@@ -1,0 +1,30 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> New Code Game </title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<h1> Creating a Game with Object Oreinted Programming </h1>
+
+<div>
+
+<h2 style="font-size:30px;"><br> A Far Way to Come and a Long Way to Go <br><br></h2>
+
+<p style="font-size:20px;"> When it comes to programming, I find it easiest to learn by doing. I could watch endless tutorials and learn nothing, but by starting my own projects and learning along the way, I feel much more confident about my abilities. I still have a lot to learn to make a decent game, but I am pretty proud that this game works! </p>
+
+<br>
+
+<p>
+<iframe src="https://trinket.io/embed/python/1668cf83d1?outputOnly=true&runOption=console&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</p>
+
+</div>
+
+<footer> <a href="index.html"> Go Back to Main Page </a> </footer>   
+</body>
+</html>
