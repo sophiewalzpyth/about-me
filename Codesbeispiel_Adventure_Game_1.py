@@ -1,4 +1,7 @@
-#I am still learning how to set up codes to catch input errors. 
+#This project was created in IDLE Python 3.7.6
+## If played in a different shell, it may refuse numpy.random.choice, and the program will not play properly
+### I hope you have fun!
+
 import random
 import numpy
 from numpy.random import choice
